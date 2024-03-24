@@ -1,0 +1,84 @@
+/* Apply a general reset to remove default padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Use a sans-serif font for the whole page */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Style the container for the entire page content */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for the header */
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* Style for the steps container */
+.steps {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* General style for each step */
+.step {
+  background-color: #D9E3F0;
+  border: 1px solid #C4C4C4;
+  padding: 20px;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+/* Specific style for the active step */
+.step.active {
+  border: 2px solid blue;
+}
+
+/* Style for headings inside steps */
+.step h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style for the button */
+button {
+  background-color: #4F8A10;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #367B03;
+}
+
+/* Style for the textarea */
+textarea {
+  width: 100%;
+  border: 1px solid #C4C4C4;
+}
+
+/* Style for the box that contains the image or the output */
+.box {
+  border: 1px dashed #C4C4C4;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Style for images */
+img {
+  max-width: 100%;
+  height: auto;
+}
